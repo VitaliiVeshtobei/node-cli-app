@@ -4,7 +4,6 @@ const path = require("path");
 
 const contactsPath = path.resolve("./db/contacts.json");
 
-// TODO: задокументировать каждую функцию
 async function listContacts() {
   try {
     const contact = await fs.readFile(contactsPath);
